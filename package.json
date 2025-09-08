@@ -1,13 +1,13 @@
 {
   "name": "neat-catch",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A comprehensive utility library for elegant error handling in TypeScript and JavaScript. Handle both sync and async operations with clean tuple-based results.",
   "main": "dist/index.js",
-  "module": "dist/index.esm.js",
+  "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.esm.js",
+      "import": "./dist/index.mjs",
       "require": "./dist/index.js"
     }
   },
@@ -20,7 +20,8 @@
     "build:watch": "tsup index.ts --format cjs,esm --dts --watch",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
-    "test:ui": "vitest --ui"
+    "test:ui": "vitest --ui",
+    "publish": "npm run build && publish"
   },
   "keywords": [
     "error-handling",
@@ -33,7 +34,12 @@
     "result-type",
     "tuple",
     "error-first",
-    "utilities"
+    "utilities",
+    "error",
+    "catch",
+    "handle",
+    "neat catch",
+    "go error handling"
   ],
   "author": {
     "name": "Your Name",
