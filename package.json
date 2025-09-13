@@ -1,6 +1,6 @@
 {
   "name": "neat-catch",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A comprehensive utility library for elegant error handling in TypeScript and JavaScript. Handle both sync and async operations with clean tuple-based results.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -21,7 +21,7 @@
     "test": "vitest",
     "test:coverage": "vitest --coverage",
     "test:ui": "vitest --ui",
-    "publish": "npm run build && publish"
+    "publish": "npm run build && npm publish"
   },
   "keywords": [
     "error-handling",
@@ -49,12 +49,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/neat-catch.git"
+    "url": "https://github.com/dforrunner/neat-catch.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/neat-catch/issues"
+    "url": "https://github.com/dforrunner/neat-catch/issues"
   },
-  "homepage": "https://github.com/yourusername/neat-catch#readme",
+  "homepage": "https://github.com/dforrunner/neat-catch#readme",
   "devDependencies": {
     "@changesets/cli": "^2.27.1",
     "@types/node": "^20.10.0",
